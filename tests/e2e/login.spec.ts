@@ -1,3 +1,12 @@
+/**
+ * @fileoverview Login tests
+ * @author [@gianfranco-maggi](https://github.com/gianfranco-maggi)
+ * @description This file contains the tests for the login page
+ * @version 1.0.0
+ * @since 2026-08-09
+ * @requires ../fixtures/orangehrm.fixture
+ * @requires ../data/credentials
+ */
 import { test, expect } from '../fixtures/orangehrm.fixture';
 import { adminCredentials } from '../data/credentials';
 
