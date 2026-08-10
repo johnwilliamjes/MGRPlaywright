@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Env / secrets
+.env
+.env.local
+*.pem
+
+# Playwright artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Cursor / IDE
+.cursor/
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.swp
+.DS_Store
+
+# Logs / OS
+*.log
+Thumbs.db

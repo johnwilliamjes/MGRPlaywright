@@ -1,0 +1,18 @@
+{
+  "name": "mgr-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OrangeHRM UI automation — TypeScript Playwright (migrated from Java dual-engine suite)",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^22.17.0",
+    "dotenv": "^16.6.1",
+    "typescript": "^5.9.2"
+  }
+}
